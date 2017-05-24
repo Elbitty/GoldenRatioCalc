@@ -14,4 +14,4 @@ def calculate(to_val: int) -> float:
     return j / i
 
 if __name__ == "__main__":
-    print(calculate(24))
+    print(str(calculate(24)))
