@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 double calculate(int to_val) {
 	const int NUMBER_ONE = 1;
@@ -11,7 +10,7 @@ double calculate(int to_val) {
 		i = j;
 		j = tmp;
 	}
-	return (j / i);
+	return (double)j / i;
 }
 
 int main(void) {
