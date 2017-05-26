@@ -1,1 +1,1 @@
-<?php function c($a){$i=1;$j=1;$t=0;for($v=0;$v<$a;$v++){$t=$i+$j;$i=$j;$j=$t;}return($j/$i);}echo c(24); ?> 
+<?php function c($a){$i=1;$j=1;$t=0;for($v=0;$v<$a;$v++){$t=$i+$j;$i=$j;$j=$t;}return($j/$i);}echo c(24); ?>
